@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flappy Bird AI - NEAT Implementation</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/neataptic/1.4.7/neataptic.js"></script>
+</head>
+<body>
+    <div class="controls">
+        <button id="toggleAI">Toggle AI (Space to play manually)</button>
+        <button id="resetGame">Reset Game</button>
+        <div class="checkbox-container">
+            <input type="checkbox" id="showAllBirds" checked>
+            <label for="showAllBirds">Show All Birds</label>
+        </div>
+        <div id="stats">
+            Generation: 1 | Population: 0 | Score: 0 | Best Score: 0
+        </div>
+    </div>
+
+    <!-- Load modules -->
+    <script src="js/pipe.js"></script>
+    <script src="js/bird.js"></script>
+    <script src="js/ai.js"></script>
+    <script src="js/game.js"></script>
+    <script src="js/main.js"></script>
+</body>     
+</html>
