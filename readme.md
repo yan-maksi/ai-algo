@@ -13,8 +13,8 @@ This is a twist on the classic Flappy Bird game — but instead of you strugglin
 ## 🔧 Tech Stack
 - HTML5 / CSS – Layout & styling
 - JS – Game + AI logic
-= p5.js – Rendering engine
-= Neataptic.js – NEAT implementation
+- p5.js – Rendering engine
+- Neataptic.js – NEAT implementation
 
 
 ## Project Structure
