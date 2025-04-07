@@ -1,3 +1,6 @@
+https://github.com/user-attachments/assets/98e9b100-78d0-464e-afc9-098d92977903
+
+
 # Flappy Bird AI – Powered by NEAT
 
 This is a twist on the classic Flappy Bird game — but instead of you struggling to fly between pipes, an AI learns to do it on its own. The project uses the NEAT (NeuroEvolution of Augmenting Topologies) algorithm to evolve smarter birds generation after generation.
